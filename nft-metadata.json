@@ -1,0 +1,18 @@
+{
+    "attributes": [
+        {
+            "trait_type": "medium",
+            "value": "ink on paper"
+        }, 
+        {
+            "trait_type": "context",
+            "value": "draft of a logo"
+        },
+        {
+            "trait_type": "artist",
+            "value": "Sludgework"
+        }
+    ],
+    "description": "Sketch of goat skull with handlettering GOATS GUIDE",
+    "image":"https://gateway.pinata.cloud/ipfs/QmNMv3saPU3Dj9oq9Ltyx1ke4noaNudU9FBRuZqjxnVHcg"
+}
