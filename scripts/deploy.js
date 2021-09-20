@@ -1,9 +1,9 @@
 const { ethers } = require("hardhat")
 
 async function main() {
-    const MyNFT = await ethers.getContractFactory("MyNFT")
+    const RoyaltiesNFT = await ethers.getContractFactory("RoyaltiesNFT")
 
-    const myNFT = await MyNFT.deploy()
+    const myNFT = await RoyaltiesNFT.deploy()
     console.log("Contract deployed to address", myNFT.address)
 }
 

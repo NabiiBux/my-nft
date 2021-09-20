@@ -1,0 +1,14 @@
+{
+    "attributes": [
+        {
+            "trait_type": "medium",
+            "value": "image"
+        },
+        {
+            "trait_type": "artist",
+            "value": "Drunk Beerserker"
+        }
+    ],
+    "description": "Toad spinning",
+    "image":"https://gateway.pinata.cloud/ipfs/QmUoZ5j7C4C9cv7HqkTHPuG5tGhHZiSZrBzqh4btumC6VB"
+}

@@ -3,8 +3,8 @@ const { API_URL, PUBLIC_KEY, PRIVATE_KEY }= process.env
 const { createAlchemyWeb3 } = require('@alch/alchemy-web3')
 const web3 = createAlchemyWeb3(API_URL)
 
-const contract = require("../artifacts/contracts/MyNFT.sol/MyNFT.json")
-const contractAddress = "0xb1f9486bf3a8b9fe898c12491faa83a41bd7dc55"
+const contract = require("../artifacts/contracts/RoyaltiesNFT.sol/RoyaltiesNFT.json")
+const contractAddress = "0x78F566C2f2607E2811cFd142de970757925b6E95" // TODO
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 async function mintNFT(tokenURI) {
@@ -35,4 +35,5 @@ async function mintNFT(tokenURI) {
         .catch(err => console.log("Sign promise failed: ", err))
 }
 
-mintNFT("https://gateway.pinata.cloud/ipfs/QmSzkrBwf9wJNTSDtHV9CbRgubueHJ5psQU57FbwJ25djU")
+//mintNFT("https://gateway.pinata.cloud/ipfs/QmUoZ5j7C4C9cv7HqkTHPuG5tGhHZiSZrBzqh4btumC6VB")
+module.exports = { mintNFT };
